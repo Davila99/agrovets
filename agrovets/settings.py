@@ -76,7 +76,7 @@ WSGI_APPLICATION = 'agrovets.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',  # Cambiar a MySQL
-        'NAME': 'agrovetshack2025',                 # Nombre de tu base de datos MySQL
+        'NAME': 'agrovetshack2025',            # Nombre de tu base de datos MySQL
         'USER': 'root',                        # Usuario de MySQL
         'PASSWORD': 'root',                    # Contraseña de MySQL
         'HOST': '127.0.0.1',                   # o 'localhost'
